@@ -1,0 +1,17 @@
+# Challenge Manifest Example
+
+```yaml
+challenge:
+  id: web-001
+  title: Header Inspector
+  category: web
+  difficulty: beginner
+  points: 100
+  scope:
+    - local Docker host
+    - 127.0.0.1 only
+  prerequisites:
+    - curl
+    - basic HTTP knowledge
+  status: draft
+```
